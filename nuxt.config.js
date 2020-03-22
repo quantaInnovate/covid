@@ -23,7 +23,10 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    // SCSS file in the project
+    '@/assets/css/main.scss'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
@@ -45,13 +48,24 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    'nuxt-google-maps-module'
   ],
+  maps: {
+    key: 'AIzaSyCjD4swxA8fo0vOcuGItqwlxF2ol2O2cgM'
+  },
+
   /*
+      key: 'AIzaSyCjD4swxA8fo0vOcuGItqwlxF2ol2O2cgM',
+
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
   axios: {},
+  bootstrapVue: {
+    bootstrapCSS: false, // Or `css: false`
+    bootstrapVueCSS: false // Or `bvCSS: false`
+  },
   /*
    ** Build configuration
    */
