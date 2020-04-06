@@ -49,7 +49,8 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    'nuxt-google-maps-module'
+    'nuxt-google-maps-module',
+    'moment'
   ],
   maps: {
     key: 'AIzaSyCjD4swxA8fo0vOcuGItqwlxF2ol2O2cgM'

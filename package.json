@@ -17,6 +17,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0",
+    "moment": "^2.24.0",
     "nuxt": "^2.0.0",
     "nuxt-gmaps": "^1.1.9",
     "nuxt-google-maps-module": "^1.6.0",
