@@ -9,8 +9,8 @@
         <b-navbar-nav>
           <b-nav-item to="/">Home</b-nav-item>
           <b-nav-item href="/hospital">Hospital</b-nav-item>
-          <b-nav-item href="/case">Case</b-nav-item>
-          <b-nav-item href="/ref">Data Refferrence</b-nav-item>
+          <!-- <b-nav-item href="/case">Case</b-nav-item> -->
+          <b-nav-item href="/ref">Data Referrence</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
